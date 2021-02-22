@@ -37,7 +37,11 @@ dev_requirements = [
     "wheel>=0.34.2",
 ]
 
-requirements = []
+requirements = [
+    numpy,
+    scipy,
+    matplotlib
+]
 
 extra_requirements = {
     "setup": setup_requirements,
