@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-"""Top-level package for python-beamscanner."""
+"""Top-level package for Python Beamscanner."""
 
 __author__ = "Paul Grimes"
 __email__ = "pgrimes@cfa.harvard.edu"

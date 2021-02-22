@@ -69,7 +69,7 @@ source_suffix = {
 master_doc = "index"
 
 # General information about the project.
-project = u"python-beamscanner"
+project = u"Python Beamscanner"
 copyright = u'2021, Paul Grimes'
 author = u"Paul Grimes"
 
@@ -154,7 +154,7 @@ latex_elements = {
 # [howto, manual, or own class]).
 latex_documents = [
     (master_doc, "python_beamscanner.tex",
-     u"python-beamscanner Documentation",
+     u"Python Beamscanner Documentation",
      u"Paul Grimes", "manual"),
 ]
 
@@ -165,7 +165,7 @@ latex_documents = [
 # (source start file, name, description, authors, manual section).
 man_pages = [
     (master_doc, "python_beamscanner",
-     u"python-beamscanner Documentation",
+     u"Python Beamscanner Documentation",
      [author], 1)
 ]
 
@@ -177,7 +177,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
     (master_doc, "python_beamscanner",
-     u"python-beamscanner Documentation",
+     u"Python Beamscanner Documentation",
      author,
      "python_beamscanner",
      "One line description of project.",

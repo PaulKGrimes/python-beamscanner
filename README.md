@@ -1,4 +1,4 @@
-# python-beamscanner
+# Python Beamscanner
 
 [![Build Status](https://github.com/PaulKGrimes/python_beamscanner/workflows/Build%20Main/badge.svg)](https://github.com/PaulKGrimes/python_beamscanner/actions)
 [![Documentation](https://github.com/PaulKGrimes/python_beamscanner/workflows/Documentation/badge.svg)](https://PaulKGrimes.github.io/python_beamscanner/)
