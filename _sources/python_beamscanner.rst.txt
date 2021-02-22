@@ -1,0 +1,29 @@
+python\_beamscanner package
+===========================
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   python_beamscanner.bin
+
+Submodules
+----------
+
+python\_beamscanner.example module
+----------------------------------
+
+.. automodule:: python_beamscanner.example
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: python_beamscanner
+   :members:
+   :undoc-members:
+   :show-inheritance:

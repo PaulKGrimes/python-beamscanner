@@ -1,0 +1,21 @@
+python\_beamscanner.bin package
+===============================
+
+Submodules
+----------
+
+python\_beamscanner.bin.my\_example module
+------------------------------------------
+
+.. automodule:: python_beamscanner.bin.my_example
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: python_beamscanner.bin
+   :members:
+   :undoc-members:
+   :show-inheritance:
