@@ -50,7 +50,7 @@ class Example(object):
                 f"Provided value: {val} (type: {type(val)}, is not an integer.)"
             )
 
-    def __init__(self, init_value: int = 10):
+    def __init__(self, init_value: int = 20):
         # Check initial value
         self._check_value(init_value)
 
