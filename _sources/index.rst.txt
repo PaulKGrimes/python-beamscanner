@@ -1,4 +1,4 @@
-Welcome to python-beamscanner's documentation!
+Welcome to Python Beamscanner's documentation!
 ======================================
 
 .. toctree::
