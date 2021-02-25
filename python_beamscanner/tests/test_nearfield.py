@@ -40,32 +40,4 @@ def example_filename(data_dir):
         (0, 1, 81, 20),
     ],
 )
-def test_kaiser_smooth(min_x, max_x, n_x, window_len):
-    """Dumb test of kaiser smoothing an array of data"""
-    # generate some data
-    a = np.linspace(min_x, max_x, n_x)
-    b = ScanData.kaiser_smooth(a, 1.0, window_len)
 
-    # just check the lengths, as we assume numpy works!
-    assert len(b) == len(a)
-
-
-def test_reading_data(example_filename):
-    """Test basic reading of data"""
-    d = ScanData()
-    d.load_csv_data(example_filename)
-
-    assert d.s21.shape == d.cal_data.shape
-
-    assert d.s21.shape[0] == len(d.x_values)
-    assert d.s21.shape[1] == len(d.y_values)
-
-    assert len(d.y_values) == d.y_points
-    assert len(d.x_values) == d.x_points
-
-    assert d.x_values[1] - d.x_values[0] == d.x_step
-    assert d.y_values[1] - d.y_values[0] == d.y_step
-    assert d.x_values[0] == d.x_limits[0]
-    assert d.x_values[-1] == d.x_limits[1]
-    assert d.y_values[0] == d.y_limits[0]
-    assert d.y_values[-1] == d.y_limits[1]
